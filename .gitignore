@@ -1,0 +1,5 @@
+node_modules
+downloads/*
+!downloads/.gitkeepme
+state.json
+package-lock.json

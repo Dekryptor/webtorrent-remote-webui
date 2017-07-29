@@ -1,0 +1,32 @@
+{
+  "name": "webtorrent-remote-webui",
+  "version": "0.0.1",
+  "description": "Remote webinterface for webtorrent",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node_modules/nodemon/bin/nodemon.js -i state.json ./index.js",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pldubouilh/webtorrent-remote-webui.git"
+  },
+  "keywords": [
+    "webtorrent",
+    "bittorrent",
+    "remote",
+    "torrent"
+  ],
+  "author": "pldubouilh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pldubouilh/webtorrent-remote-webui/issues"
+  },
+  "homepage": "https://github.com/pldubouilh/webtorrent-remote-webui#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0",
+    "restify": "^5.0.1",
+    "rimraf": "^2.6.1",
+    "webtorrent": "^0.98.19"
+  }
+}
